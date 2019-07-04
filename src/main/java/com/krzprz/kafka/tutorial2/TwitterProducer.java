@@ -22,11 +22,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 public class TwitterProducer {
-    private String consumerKey = "eJHladBkJgcU6c7fxNeYEzutD";
-    private String consumerSecret = "iZRwSkMGn5VUbsaiHhINYYFwov4skpFb1o2h3lUsw6OzI47Bju";
-    private String token = "458330161-HTLqQt2qbfBaTBG3c4sJ9aAFAY5PZqXIpTOIvS7s";
-    private String secret = "zS21YHM292CuBF8opxAOVfsxUULEk1PHdSXCu1f0h7AEZ";
-    List<String> terms = Lists.newArrayList("kafka");
+   List<String> terms = Lists.newArrayList("kafka");
 
     private static Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
